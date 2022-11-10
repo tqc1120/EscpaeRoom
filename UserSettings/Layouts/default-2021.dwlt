@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1440
     height: 766
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -206,7 +206,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: PackageManagerWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -215,16 +215,16 @@ MonoBehaviour:
     y: 0
     width: 919
     height: 424
-  m_MinSize: {x: 202, y: 221}
+  m_MinSize: {x: 802, y: 271}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 16}
   - {fileID: 14}
   - {fileID: 12}
   - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 2
+  m_Selected: 2
+  m_LastSelected: 0
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -461,9 +461,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c47f0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 2afbffff
+      m_ExpandedIDs: e0a1ffff80d3ffff5cfaffff74faffffa2faffff2afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -713,9 +713,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -82.21788, y: 25.743649, z: -9.687637}
+    m_Target: {x: -165.92113, y: -42.975517, z: 54.167023}
     speed: 2
-    m_Value: {x: -82.21788, y: 25.743649, z: -9.687637}
+    m_Value: {x: -165.92113, y: -42.975517, z: 54.167023}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -762,13 +762,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.59770256, y: 0.13986757, z: -0.10698884, w: -0.78219515}
+    m_Target: {x: 0.38851783, y: -0.0021924935, z: 0.0010203124, w: 0.921495}
     speed: 2
-    m_Value: {x: -0.59770256, y: 0.13986757, z: -0.10698885, w: -0.78219515}
+    m_Value: {x: 0.38849744, y: -0.0021923785, z: 0.0010202589, w: 0.9214467}
   m_Size:
-    m_Target: 117.64051
+    m_Target: 103.285355
     speed: 2
-    m_Value: 117.64051
+    m_Value: 103.285355
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -835,22 +835,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Art Assets/BUST
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Art Assets/BUST
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Applications/Carnegie Mellon/EscpaeRoom
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 2a800000
-    m_LastClickedID: 32810
-    m_ExpandedIDs: 00000000e07d0000de7f000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 12.000366}
+    m_SelectedIDs: d87d0000
+    m_LastClickedID: 32216
+    m_ExpandedIDs: 00000000d87d00005480000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -878,7 +878,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e07d0000
+    m_ExpandedIDs: 00000000d87d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -905,7 +905,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
